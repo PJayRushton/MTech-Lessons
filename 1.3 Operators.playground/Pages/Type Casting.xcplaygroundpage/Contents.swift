@@ -16,4 +16,11 @@ let numberOfCookiesDouble = 11.0
 let numberOfGuestsDouble: Double = 4
 let realCookiesPerGuest = numberOfCookiesDouble / numberOfGuestsDouble
 
+
+let thisIsADouble = 2.5
+let thisIsAnInt = 10
+
+let multiplied = Int(thisIsADouble) * thisIsAnInt
+let multipled2 = thisIsADouble * Double(thisIsAnInt)
+
 //: [Next](@next)
