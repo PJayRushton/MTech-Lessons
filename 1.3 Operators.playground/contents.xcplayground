@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Assignment Operator'/>
+        <page name='Arithmetic Operators'/>
+        <page name='Type Casting'/>
+        <page name='Compound Assignment'/>
+        <page name='Order of Operations'/>
+        <page name='Modulo Operator'/>
+    </pages>
+</playground>
