@@ -5,5 +5,8 @@
         <page name='Instances'/>
         <page name='Initializers'/>
         <page name='Functions'/>
+        <page name='Computed Properties'/>
+        <page name='Property Observers'/>
+        <page name='Type Prop + Funcs'/>
     </pages>
 </playground>

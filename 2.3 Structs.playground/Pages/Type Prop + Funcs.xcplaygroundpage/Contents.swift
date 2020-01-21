@@ -44,22 +44,5 @@ struct School {
 }
 //: We must mark a function as `mutating` or (changing) to indicate that this function changes the value of a struct's property
 
-//: **Challenge** display the number of students, then enroll a new student, then display the new number of students
-
-//: ## LAB - 3-6
+//: ## LAB - 9-10
 //: [Next](@next)
-
-
-
-
-
-
-
-
-
-
-
-var provoHigh = School(students: 1000)
-provoHigh.displayNumberOfStudents()
-provoHigh.addNewStudent()
-provoHigh.displayNumberOfStudents()
