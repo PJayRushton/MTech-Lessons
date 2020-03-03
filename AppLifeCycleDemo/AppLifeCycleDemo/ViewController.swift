@@ -19,10 +19,10 @@ class ViewController: UIViewController {
         }
     }
     let numbers = [0, 1]
-    
+    var launchCount = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("The app has launched \(launchCount) times")
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -42,9 +42,7 @@ class ViewController: UIViewController {
             if self.remainingTime > 0 {
                 self.remainingTime -= 1
             }
-            if self.remainingTime == 55 {
-                let a = self.numbers[3]
-            }
+
         })
     }
     
