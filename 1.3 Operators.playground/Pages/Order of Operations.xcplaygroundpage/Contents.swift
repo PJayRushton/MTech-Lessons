@@ -6,11 +6,12 @@
 
 let x = 2
 let y = 3
-let z = 4
+let z = 5
 
-let first = x + y * z
-let second = (x + y) * z
+let a = x + y * z
+let b = (x + y) * z
 
-
-
+//: What is the value of `a`?
+//: What is the value of `b`?
+ 
 //: [Next](@next)

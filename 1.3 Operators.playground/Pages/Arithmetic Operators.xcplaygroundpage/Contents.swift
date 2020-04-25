@@ -27,9 +27,4 @@ let totalWindowsAgain = windowsPerRoom * numbersOfRooms
 var totalNumbersOfCookies = 12
 let numberOfGuests = 4
 let cookiesPerGuest = totalNumbersOfCookies / numberOfGuests
-//: Use Doubles for decimal point precision
-let totalDistance = 3.9
-let distanceTravelled = 1.2
-let distanceRemaining = totalDistance - distanceTravelled
-
 //: [Next](@next)

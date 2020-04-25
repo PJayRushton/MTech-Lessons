@@ -8,7 +8,6 @@ let numberOfCookies = 11
 let numberOfGuests = 4
 let cookiesPerGuest = numberOfCookies / numberOfGuests
 
-let remainder = numberOfCookies % numberOfGuests
 //: What is the type of these properties? ^
 
 //: Cast them to be of type Double to get decimal precision
@@ -17,10 +16,13 @@ let numberOfGuestsDouble: Double = 4
 let realCookiesPerGuest = numberOfCookiesDouble / numberOfGuestsDouble
 
 
+//: ## You can only perform arithmetic on things of the same type
 let thisIsADouble = 2.5
 let thisIsAnInt = 10
 
-let multiplied = Int(thisIsADouble) * thisIsAnInt
-let multipled2 = thisIsADouble * Double(thisIsAnInt)
+//let thisWontWork = thisIsADouble * thisIsAnInt
+// Binary operator `*` cannot be applied to operands of type `Double` and `Int`
+
+let doubleAnswer = thisIsADouble * Double(thisIsAnInt)
 
 //: [Next](@next)

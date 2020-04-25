@@ -6,5 +6,5 @@ var myFavoriteTVShow = "Stranger Things"
 
 //: * Use the assignment operator to reassign your favorite tv show
 //: * Then create a new variable that states your favorite movie
-
+myFavoriteTVShow = "Survivor"
 //: [Next](@next)

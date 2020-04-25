@@ -18,6 +18,7 @@ let newCookiesPerGuest = numberOfCookies / numberOfGuests
 let remainder = numberOfCookies % numberOfGuests
 
 //: How would I use the modulo operator to figure out if a big number is divisible by 3?
-let bigNumber = 0983274059823094875
-
+let bigNumber = 0983274059823094876
+let bigRemainder = bigNumber % 3
+let isDivisibleBy3 = bigRemainder == 0
 //: [Next](@next)
