@@ -1,6 +1,7 @@
 
 import Foundation
 
+
 struct RoomType: Equatable {
     var id: Int
     var name: String

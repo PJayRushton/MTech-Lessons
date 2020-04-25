@@ -9,6 +9,9 @@
 import UIKit
 
 protocol RoomSelectionDelegate {
+    /// Used in the `RoomSelectionDelegate` when a room is selected
+    /// - note: This is an extra note to be read by the next programmer on this project.
+    /// - Parameter room: `RoomType` of the selected room
     func didSelectRoom(_ room: RoomType)
 }
 

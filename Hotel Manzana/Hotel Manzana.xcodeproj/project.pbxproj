@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A101F112243EF0B300F6373E /* Hotel_ManzanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101F111243EF0B300F6373E /* Hotel_ManzanaTests.swift */; };
+		A101F11F243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A101F11E243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A101F125243EF0CD00F6373E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A101F123243EF0CD00F6373E /* Interface.storyboard */; };
+		A101F127243EF0CE00F6373E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A101F126243EF0CE00F6373E /* Assets.xcassets */; };
+		A101F12E243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A101F12D243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A101F133243EF0CE00F6373E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101F132243EF0CE00F6373E /* InterfaceController.swift */; };
+		A101F135243EF0CE00F6373E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101F134243EF0CE00F6373E /* ExtensionDelegate.swift */; };
+		A101F137243EF0CE00F6373E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101F136243EF0CE00F6373E /* NotificationController.swift */; };
+		A101F139243EF0CF00F6373E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A101F138243EF0CF00F6373E /* Assets.xcassets */; };
 		A17D73CD242A47720010B5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D73CC242A47720010B5C3 /* AppDelegate.swift */; };
 		A17D73CF242A47720010B5C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D73CE242A47720010B5C3 /* SceneDelegate.swift */; };
 		A17D73D1242A47720010B5C3 /* NewRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D73D0242A47720010B5C3 /* NewRegistrationTableViewController.swift */; };
@@ -19,7 +28,71 @@
 		A17D73E7242A5E950010B5C3 /* RoomSelectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D73E6242A5E950010B5C3 /* RoomSelectionDataSource.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A101F114243EF0B300F6373E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17D73C1242A47720010B5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17D73C8242A47720010B5C3;
+			remoteInfo = "Hotel Manzana";
+		};
+		A101F120243EF0CD00F6373E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17D73C1242A47720010B5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A101F11D243EF0CD00F6373E;
+			remoteInfo = "HotelManazanaWatchApp WatchKit App";
+		};
+		A101F12F243EF0CE00F6373E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17D73C1242A47720010B5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A101F12C243EF0CE00F6373E;
+			remoteInfo = "HotelManazanaWatchApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A101F13F243EF0CF00F6373E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A101F12E243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101F143243EF0CF00F6373E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A101F11F243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A101F10F243EF0B200F6373E /* Hotel ManzanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hotel ManzanaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A101F111243EF0B300F6373E /* Hotel_ManzanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel_ManzanaTests.swift; sourceTree = "<group>"; };
+		A101F113243EF0B300F6373E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A101F11B243EF0CD00F6373E /* HotelManazanaWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelManazanaWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A101F11E243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HotelManazanaWatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A101F124243EF0CD00F6373E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A101F126243EF0CE00F6373E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A101F128243EF0CE00F6373E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A101F12D243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HotelManazanaWatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A101F132243EF0CE00F6373E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A101F134243EF0CE00F6373E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A101F136243EF0CE00F6373E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A101F138243EF0CF00F6373E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A101F13A243EF0CF00F6373E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A101F13B243EF0CF00F6373E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		A17D73C9242A47720010B5C3 /* Hotel Manzana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotel Manzana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17D73CC242A47720010B5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17D73CE242A47720010B5C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +108,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A101F10C243EF0B200F6373E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101F12A243EF0CE00F6373E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A17D73C6242A47720010B5C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,10 +132,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A101F110243EF0B200F6373E /* Hotel ManzanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A101F111243EF0B300F6373E /* Hotel_ManzanaTests.swift */,
+				A101F113243EF0B300F6373E /* Info.plist */,
+			);
+			path = "Hotel ManzanaTests";
+			sourceTree = "<group>";
+		};
+		A101F122243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A101F123243EF0CD00F6373E /* Interface.storyboard */,
+				A101F126243EF0CE00F6373E /* Assets.xcassets */,
+				A101F128243EF0CE00F6373E /* Info.plist */,
+			);
+			path = "HotelManazanaWatchApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		A101F131243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A101F132243EF0CE00F6373E /* InterfaceController.swift */,
+				A101F134243EF0CE00F6373E /* ExtensionDelegate.swift */,
+				A101F136243EF0CE00F6373E /* NotificationController.swift */,
+				A101F138243EF0CF00F6373E /* Assets.xcassets */,
+				A101F13A243EF0CF00F6373E /* Info.plist */,
+				A101F13B243EF0CF00F6373E /* PushNotificationPayload.apns */,
+			);
+			path = "HotelManazanaWatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
 		A17D73C0242A47720010B5C3 = {
 			isa = PBXGroup;
 			children = (
 				A17D73CB242A47720010B5C3 /* Hotel Manzana */,
+				A101F110243EF0B200F6373E /* Hotel ManzanaTests */,
+				A101F122243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App */,
+				A101F131243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension */,
 				A17D73CA242A47720010B5C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +179,10 @@
 			isa = PBXGroup;
 			children = (
 				A17D73C9242A47720010B5C3 /* Hotel Manzana.app */,
+				A101F10F243EF0B200F6373E /* Hotel ManzanaTests.xctest */,
+				A101F11B243EF0CD00F6373E /* HotelManazanaWatchApp.app */,
+				A101F11E243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App.app */,
+				A101F12D243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +208,75 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A101F10E243EF0B200F6373E /* Hotel ManzanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A101F118243EF0B300F6373E /* Build configuration list for PBXNativeTarget "Hotel ManzanaTests" */;
+			buildPhases = (
+				A101F10B243EF0B200F6373E /* Sources */,
+				A101F10C243EF0B200F6373E /* Frameworks */,
+				A101F10D243EF0B200F6373E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A101F115243EF0B300F6373E /* PBXTargetDependency */,
+			);
+			name = "Hotel ManzanaTests";
+			productName = "Hotel ManzanaTests";
+			productReference = A101F10F243EF0B200F6373E /* Hotel ManzanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A101F11A243EF0CD00F6373E /* HotelManazanaWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A101F144243EF0CF00F6373E /* Build configuration list for PBXNativeTarget "HotelManazanaWatchApp" */;
+			buildPhases = (
+				A101F119243EF0CD00F6373E /* Resources */,
+				A101F143243EF0CF00F6373E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A101F121243EF0CD00F6373E /* PBXTargetDependency */,
+			);
+			name = HotelManazanaWatchApp;
+			productName = HotelManazanaWatchApp;
+			productReference = A101F11B243EF0CD00F6373E /* HotelManazanaWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A101F11D243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A101F140243EF0CF00F6373E /* Build configuration list for PBXNativeTarget "HotelManazanaWatchApp WatchKit App" */;
+			buildPhases = (
+				A101F11C243EF0CD00F6373E /* Resources */,
+				A101F13F243EF0CF00F6373E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A101F130243EF0CE00F6373E /* PBXTargetDependency */,
+			);
+			name = "HotelManazanaWatchApp WatchKit App";
+			productName = "HotelManazanaWatchApp WatchKit App";
+			productReference = A101F11E243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A101F12C243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A101F13C243EF0CF00F6373E /* Build configuration list for PBXNativeTarget "HotelManazanaWatchApp WatchKit Extension" */;
+			buildPhases = (
+				A101F129243EF0CE00F6373E /* Sources */,
+				A101F12A243EF0CE00F6373E /* Frameworks */,
+				A101F12B243EF0CE00F6373E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HotelManazanaWatchApp WatchKit Extension";
+			productName = "HotelManazanaWatchApp WatchKit Extension";
+			productReference = A101F12D243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		A17D73C8242A47720010B5C3 /* Hotel Manzana */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A17D73DD242A47750010B5C3 /* Build configuration list for PBXNativeTarget "Hotel Manzana" */;
@@ -105,10 +300,23 @@
 		A17D73C1242A47720010B5C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = PJayRushton;
 				TargetAttributes = {
+					A101F10E243EF0B200F6373E = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = A17D73C8242A47720010B5C3;
+					};
+					A101F11A243EF0CD00F6373E = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					A101F11D243EF0CD00F6373E = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					A101F12C243EF0CE00F6373E = {
+						CreatedOnToolsVersion = 11.4;
+					};
 					A17D73C8242A47720010B5C3 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -128,11 +336,46 @@
 			projectRoot = "";
 			targets = (
 				A17D73C8242A47720010B5C3 /* Hotel Manzana */,
+				A101F10E243EF0B200F6373E /* Hotel ManzanaTests */,
+				A101F11A243EF0CD00F6373E /* HotelManazanaWatchApp */,
+				A101F11D243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App */,
+				A101F12C243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A101F10D243EF0B200F6373E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101F119243EF0CD00F6373E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101F11C243EF0CD00F6373E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A101F127243EF0CE00F6373E /* Assets.xcassets in Resources */,
+				A101F125243EF0CD00F6373E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101F12B243EF0CE00F6373E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A101F139243EF0CF00F6373E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A17D73C7242A47720010B5C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +389,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A101F10B243EF0B200F6373E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A101F112243EF0B300F6373E /* Hotel_ManzanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101F129243EF0CE00F6373E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A101F137243EF0CE00F6373E /* NotificationController.swift in Sources */,
+				A101F135243EF0CE00F6373E /* ExtensionDelegate.swift in Sources */,
+				A101F133243EF0CE00F6373E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A17D73C5242A47720010B5C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,7 +423,33 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A101F115243EF0B300F6373E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17D73C8242A47720010B5C3 /* Hotel Manzana */;
+			targetProxy = A101F114243EF0B300F6373E /* PBXContainerItemProxy */;
+		};
+		A101F121243EF0CD00F6373E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A101F11D243EF0CD00F6373E /* HotelManazanaWatchApp WatchKit App */;
+			targetProxy = A101F120243EF0CD00F6373E /* PBXContainerItemProxy */;
+		};
+		A101F130243EF0CE00F6373E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A101F12C243EF0CE00F6373E /* HotelManazanaWatchApp WatchKit Extension */;
+			targetProxy = A101F12F243EF0CE00F6373E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		A101F123243EF0CD00F6373E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A101F124243EF0CD00F6373E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		A17D73D2242A47720010B5C3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -182,6 +469,156 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A101F116243EF0B300F6373E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6LDT652Z;
+				INFOPLIST_FILE = "Hotel ManzanaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PJayRushton.Hotel-ManzanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotel Manzana.app/Hotel Manzana";
+			};
+			name = Debug;
+		};
+		A101F117243EF0B300F6373E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6LDT652Z;
+				INFOPLIST_FILE = "Hotel ManzanaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PJayRushton.Hotel-ManzanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotel Manzana.app/Hotel Manzana";
+			};
+			name = Release;
+		};
+		A101F13D243EF0CF00F6373E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6LDT652Z;
+				INFOPLIST_FILE = "HotelManazanaWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PJayRushton.HotelManazanaWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		A101F13E243EF0CF00F6373E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6LDT652Z;
+				INFOPLIST_FILE = "HotelManazanaWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PJayRushton.HotelManazanaWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		A101F141243EF0CF00F6373E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6LDT652Z;
+				IBSC_MODULE = HotelManazanaWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "HotelManazanaWatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PJayRushton.HotelManazanaWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		A101F142243EF0CF00F6373E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6LDT652Z;
+				IBSC_MODULE = HotelManazanaWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "HotelManazanaWatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PJayRushton.HotelManazanaWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		A101F145243EF0CF00F6373E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WK6LDT652Z;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PJayRushton.HotelManazanaWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A101F146243EF0CF00F6373E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WK6LDT652Z;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PJayRushton.HotelManazanaWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A17D73DB242A47750010B5C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -335,6 +772,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A101F118243EF0B300F6373E /* Build configuration list for PBXNativeTarget "Hotel ManzanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A101F116243EF0B300F6373E /* Debug */,
+				A101F117243EF0B300F6373E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A101F13C243EF0CF00F6373E /* Build configuration list for PBXNativeTarget "HotelManazanaWatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A101F13D243EF0CF00F6373E /* Debug */,
+				A101F13E243EF0CF00F6373E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A101F140243EF0CF00F6373E /* Build configuration list for PBXNativeTarget "HotelManazanaWatchApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A101F141243EF0CF00F6373E /* Debug */,
+				A101F142243EF0CF00F6373E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A101F144243EF0CF00F6373E /* Build configuration list for PBXNativeTarget "HotelManazanaWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A101F145243EF0CF00F6373E /* Debug */,
+				A101F146243EF0CF00F6373E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A17D73C4242A47720010B5C3 /* Build configuration list for PBXProject "Hotel Manzana" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
