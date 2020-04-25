@@ -6,7 +6,7 @@
 //: ## Online Docs (developer.apple.com/documentation) (Or just google the class or type you're looking for)
 
 //: **CHALLENGE 1 (WHY?)**: Here's a string:
-let example1 = "Por Que?"
+let example1: String = "Por Que?"
 //: This word is a Spanish word however, and should have an accent mark on the `e`
 
 //: **Look at the documentation for STRING to figure out how to create a string that will print out as the correct spelling with an accent mark**
@@ -17,7 +17,7 @@ let example1 = "Por Que?"
 //: Write a function that can determine if a single word is a palindrome (Hint: Keep reading the String Documentation)
 
 func isPalindromeWord(subject: String) -> Bool {
-    return subject.rever
+    return subject
 }
 
 let shouldBeTrue = isPalindromeWord(subject: "racecar")
