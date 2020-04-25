@@ -17,11 +17,14 @@ struct Car {
     let make: String
     let model: String
     let year: Int
-    let doors: Int// = 4
-    var speed: Int// = 0
+    let doors: Int = 4
+    var speed: Int = 0
 }
 //: Default Initializer
-let parkersNissanRogue = Car(make: "Nissan", model: "Rogue", year: 2014, doors: 4, speed: 0)
+//let parkersNissanRogue = Car(make: "Nissan", model: "Rogue", year: 2014, doors: 4, speed: 0)
+let newCar = Car(make: "Toyota", model: "Camry", year: 2020)
+newCar.doors
+newCar.speed
 //: Assign default values to a struct to make them optional on initialization
 //let studentsCar = Car
 
@@ -45,4 +48,5 @@ struct Rectangle {
 let rectangle1 = Rectangle(longSide: 10, shortSide: 5)
 //: Initialize a square
 let square = Rectangle(squareSide: 10)
-//: [Next](@next)
+
+//: [Next Page (Functions)](@next)

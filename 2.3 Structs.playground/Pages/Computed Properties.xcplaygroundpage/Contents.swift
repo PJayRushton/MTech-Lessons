@@ -27,4 +27,4 @@ struct Dog {
 let beethoven = Dog(breed: "Saint Bernard", age: 5)
 print(beethoven.age)
 print(beethoven.humanYears)
-//: [Next](@next)
+//: [Next Page (Property Observers)](@next)

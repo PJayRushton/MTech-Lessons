@@ -28,7 +28,7 @@ struct SpeedBus {
         }
         didSet {
             print("Now you're going \(speed)")
-            if oldValue > 60 && speed < 60 {
+            if oldValue >= 60 && speed < 60 {
                 print("You DED 💣 💥 ☠️")
             }
         }
@@ -43,8 +43,11 @@ struct SpeedBus {
     }
     
 }
-
-var bus = SpeedBus(speed: 0)
 //: Make the bus explode
-//: # LAB 7-8
+
+var bus = SpeedBus(speed: 60)
+bus.speedUp()
+bus.slowDown()
+bus.slowDown()
+
 //: [Next](@next)

@@ -7,6 +7,5 @@
         <page name='Functions'/>
         <page name='Computed Properties'/>
         <page name='Property Observers'/>
-        <page name='Type Prop + Funcs'/>
     </pages>
 </playground>

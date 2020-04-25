@@ -1,4 +1,4 @@
-//: [Previous](@previous)
+//: [Previous Page (Intro)](@previous)
 //: # Structs
 //: # Instances
 
@@ -17,6 +17,7 @@ struct Person {
 
 //: Well thats where instances come in. We can INITIALIZE an INSTANCE of a person to represent a specific person
 var parker = Person(age: 29, name: "Parker", height: 70, weight: 300)
+var str = String()
 //: Use dot syntax to access specific properties of the instance
 let parkersAge = parker.age
 print(parkersAge)
@@ -31,5 +32,6 @@ parker.stateName()
 parker.weight -= 200
 print(parker.weight)
 
-//: # LAB 1-2
-//: [Next](@next)
+//: You're now ready for Lab questions 1-2
+
+//: [Next Page (Initializers)](@next)

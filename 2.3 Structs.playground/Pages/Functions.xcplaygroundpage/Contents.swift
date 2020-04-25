@@ -1,7 +1,6 @@
 //: [Previous](@previous)
 //: # Structs
 //: ## Functions
-
 //: Two types of functions, **TYPE** and **INSTANCE** (**MEMBER-WISE**)
 
 //: Use **TYPE** functions on the struct type
@@ -19,7 +18,6 @@ struct Person {
 }
 Person.displayLatinName()
 let parker = Person(name: "Parker")
-//parker.displayLatinName()
 
 //: Use **MEMBER-WISE** or **INSTANCE** functions to perform operations on an INSTANCE of a struct
 parker.displayName()
@@ -28,13 +26,13 @@ parker.displayName()
 //: ## Mutability
 //: Structs are meant to be immutable (Not changing)
 
-//: Here's a Pedometer struct. What happens when I create a Pedometer INSTANCE and then I take a step. What should happen?
+//: Here's a School struct. What happens when I create a Pedometer INSTANCE and then I take a step. What should happen?
 
 struct School {
     var students: Int
     
-    func addNewStudent() {
-//        students += 1
+    mutating func addNewStudent() {
+        students += 1
     }
     
     func displayNumberOfStudents() {
@@ -46,10 +44,9 @@ struct School {
 
 //: **Challenge** display the number of students, then enroll a new student, then display the new number of students
 
-//: ## LAB - 3-6
-//: [Next](@next)
+//: You're now ready for Lab questions 3-6
 
-
+//: [Next Page (Computed Properties)](@next)
 
 
 

@@ -29,6 +29,4 @@ struct Car {
     }
 }
 
-//: Instances
-
-//: [Next](@next)
+//: [Next Page (Instances)](@next)
