@@ -15,6 +15,7 @@
 //: `willSet` -> `newValue`
 
 //: `didSet` -> `oldValue`
+import Foundation
 
 struct SpeedBus {
     
@@ -50,4 +51,19 @@ bus.speedUp()
 bus.slowDown()
 bus.slowDown()
 
+let string = "MAary  Jo Jackson"
+let blankSTring = "  \n  "
+let componeents = string.components(separatedBy: .whitespaces)
+blankSTring.isBlank
+
 //: [Next](@next)
+extension String {
+
+var isBlank: Bool {
+    return isEmpty || trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+}
+
+}
+
+let date = Date()
+let seconds = date.timeIntervalSinceReferenceDate
